@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovhmanager"
+dynamic = ["version"]
+description = "Python wrapper of the ovh python api"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "hassoun", email = "hassoun@protonmail.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/hassoun/ovhmanager"
+Documentation = "https://hassoun.github.io/ovhmanager/"
+
+[project.entry-points.nbdev]
+ovhmanager = "ovhmanager._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "ovhmanager.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["ovhmanager"]
+
+[tool.nbdev]

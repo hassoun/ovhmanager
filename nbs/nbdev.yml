@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ovhmanager"
+  site-url: "https://hassoun.github.io/ovhmanager"
+  description: "Python wrapper of the ovh python api"
+  repo-branch: main
+  repo-url: "https://github.com/hassoun/ovhmanager"
