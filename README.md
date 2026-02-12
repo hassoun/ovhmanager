@@ -16,7 +16,9 @@ The implementation idea came from the need to easily spin-up an OVH
 cloud GPU instance, then delete it when no longer needed (avoiding
 unecessary costs billing)
 
-![License](https://img.shields.io/github/license/hassoun/ovhmanager.png)
+![PyPI](https://img.shields.io/pypi/v/ovhmanager.png)
+![Python](https://img.shields.io/pypi/pyversions/ovhmanager.png)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![docs](https://img.shields.io/badge/docs-nbdev-blue.png)
 
 ## Developer Guide
