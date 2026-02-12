@@ -27,6 +27,7 @@ class OVHGPUManager:
         OVHGPUManager is a OVH API client wrapper that enables to create, delete, start and stop GPU instances
         
         By default the OVH client expects the following environment variables to be set, but you can overwrite them using the provided arguments:
+        
         - OVH_ENDPOINT
         - OVH_APPLICATION_KEY
         - OVH_APPLICATION_SECRET
