@@ -32,7 +32,7 @@ Documentation = "https://hassoun.github.io/ovhmanager/"
 ovhmanager = "ovhmanager._modidx:d"
 
 [tool.setuptools.dynamic]
-version = {attr = "ovhmanager.__version__"}
+# version = {attr = "ovhmanager.__version__"}
 
 [tool.setuptools.packages.find]
 include = ["ovhmanager"]
