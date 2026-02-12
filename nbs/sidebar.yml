@@ -1,0 +1,8 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_core.ipynb
+      - 01_project.ipynb
+      - 02_catalog.ipynb
+      - 03_instance.ipynb

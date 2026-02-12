@@ -4,6 +4,6 @@ project:
 website:
   title: "ovhmanager"
   site-url: "https://hassoun.github.io/ovhmanager"
-  description: "Python wrapper of the ovh python api"
+  description: "Python wrapper of the ovh python api for managing OVH GPU instances"
   repo-branch: main
   repo-url: "https://github.com/hassoun/ovhmanager"
